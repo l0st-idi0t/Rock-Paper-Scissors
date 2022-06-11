@@ -1,3 +1,3 @@
 window.onload() = ()=> {
-	console.log('hello');
+	console.log('up and running!');
 }
