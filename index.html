@@ -9,10 +9,12 @@
 </head>
 <body>
 	<h1>come enjoy a game of Rock-Paper-Scissors</h1>
+	<h2 id="score">score: 0</h2>
 	<div class = "content">
-		<input type="image" id="rock" src="images/rock.png" />
-		<input type="image" id="paper" src="images/paper.png" />
-		<input type="image" id="scissors" src="images/scissors.png" />
+		<input type="image" id="rock" src="images/rock.png" onclick="play('rock')" />
+		<input type="image" id="paper" src="images/paper.png" onclick="play('paper')" />
+		<input type="image" id="scissors" src="images/scissors.png" onclick="play('scissors')" />
 	</div>
+	<h1 style="margin-top: 3%;" id="notif"></h1>
 </body>
 </html>

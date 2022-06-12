@@ -3,9 +3,10 @@ body, html {
 	height: 100%;
 	padding: 0px;
 	margin: 0px;
+	overflow: hidden;
 }
 
-h1 {
+h1, h2{
 	font-family: monospace;
 	text-align: center;
 	font-weight: lighter;
