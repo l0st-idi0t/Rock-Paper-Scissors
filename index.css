@@ -23,6 +23,8 @@ h1 {
 .content input {
 	cursor: pointer;
 	transition: 0.5s;
+	width: auto;
+	height: auto;
 }
 
 .content input:hover {
